@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Videojuegos</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/Menu.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: left;">Bienvenidos a la Tienda de Videojuegos JOJOBros</h1>
+        <header class="header">
+            <nav class="nav">
+                <h1><a href="index.html" class="nav-link logo">JOJOBROS</a></h1>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="catalogo.html" class="nav-link nav-menu-link">Catálogo</a></li>
+                    <li class="nav-menu-item"><a href="novedades.html" class="nav-link nav-menu-link">Novedades</a></li>
+                    <li class="nav-menu-item"><a href="ofertas.html" class="nav-link nav-menu-link">Ofertas</a></li>
+                    <li class="nav-menu-item"><a href="mas-vendidos.html" class="nav-link nav-menu-link">Más Vendidos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <h1>Catálogo de Videojuegos</h1>
+
+    <div style="display: flex; justify-content: center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Género</th>
+                    <th>Plataforma</th>
+                    <th>Precio</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Juegos reales añadidos -->
+                <tr>
+                    <td>The Legend of Zelda: Breath of the Wild</td>
+                    <td>Aventura</td>
+                    <td>Nintendo Switch</td>
+                    <td>$59.99</td>
+                    <td><button onclick="alertar('The Legend of Zelda: Breath of the Wild')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>God of War</td>
+                    <td>Acción</td>
+                    <td>PS4</td>
+                    <td>$49.99</td>
+                    <td><button onclick="alertar('God of War')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>Halo Infinite</td>
+                    <td>Shooter</td>
+                    <td>Xbox Series X</td>
+                    <td>$59.99</td>
+                    <td><button onclick="alertar('Halo Infinite')">Comprar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 JOJOBros Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function alertar(juego) {
+            window.alert(juego + " añadido al carrito");
+        }
+    </script>
+</body>
+
+</html>

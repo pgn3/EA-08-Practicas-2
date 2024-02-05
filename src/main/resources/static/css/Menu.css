@@ -11,7 +11,7 @@ body{
 }
 
 .header{
-    background-color: #076AF0;
+    background-color: #6B0F1A;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -44,6 +44,7 @@ body{
 }
 .nav-menu-item{
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     margin: 0 10px;
 }
 .nav-menu-link{
@@ -53,6 +54,7 @@ body{
 .nav-menu-link:hover{
     background-color: #024070;
     padding: 8px 12px;
+    width: 100px;
     border-radius: 10px;
     transition: 1s;
 }

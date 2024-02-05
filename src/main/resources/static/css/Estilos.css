@@ -1,49 +1,69 @@
-footer p{
-    background-color: blue;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
     color: white;
-    
+    text-align: center;
+    padding: 10px 0;
 }
 
-p{
-    background-color: blue;
-    color:white;
+footer p {
+    background-color: #6B0F1A;
+    color: white;
+
 }
-h1,h2{
+
+p {
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
     text-align: center;
 }
-h1{
+
+h1 {
     text-align: center;
-    background-color: black;
-    color:white;
+    color: black;
     font-size: 24px;
-    
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
+    background-color: #DCE0D9;
+    color: black;
+    font-size: 18px;
+
+}
+
+
+.aviso {
+
     background-color: green;
-    color:yellow;
-    font-size: 14px;
-    
+    color: white;
 }
 
 
-.aviso{
-    
-    background-color: green;
-    color:white;
-}
+#btnAlkgo {}
 
-
-#btnAlkgo{
-    
-}
-
-table{
+table {
     width: 80%
 }
-thead tr{
+
+thead tr {
     background-color: black;
-    color:white;
+    color: white;
     width: 80%;
 }

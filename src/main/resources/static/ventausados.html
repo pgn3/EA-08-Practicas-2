@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Consolas Usadas</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/Menu.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: left;">Bienvenidos a la Tienda de Videojuegos JOJOBros</h1>
+        <header class="header">
+            <nav class="nav">
+                <h1><a href="index.html" class="nav-link logo">JOJOBROS</a></h1>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="catalogo.html" class="nav-link nav-menu-link">Cátalogo</a></li>
+                    <li class="nav-menu-item"><a href="novedades.html" class="nav-link nav-menu-link">Novedades</a></li>
+                    <li class="nav-menu-item"><a href="ofertas.html" class="nav-link nav-menu-link">Ofertas</a></li>
+                    <li class="nav-menu-item"><a href="mas-vendidos.html" class="nav-link nav-menu-link">Más
+                            Vendidos</a></li>
+                    <li class="nav-menu-item"><a href="catalogoConsolas.html" class="nav-link nav-menu-link">Cátalogo
+                            Consolas</a></li>
+                    <li class="nav-menu-item"><a href="ventausados.html" class="nav-link nav-menu-link">Ventas
+                            Usados</a></li>
+                    <li class="nav-menu-item"><a href="resenas.html" class="nav-link nav-menu-link">Reseñas de
+                            usuario</a></li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <h1>Catálogo de Consolas Usadas</h1>
+
+    <div style="display: flex; justify-content: center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Consola</th>
+                    <th>Condición</th>
+                    <th>Plataforma</th>
+                    <th>Precio</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Consolas usadas añadidas -->
+                <tr>
+                    <td>Nintendo Switch</td>
+                    <td>Buen estado</td>
+                    <td>Portátil / TV</td>
+                    <td>$199.99</td>
+                    <td><button onclick="alertar('Nintendo Switch')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <td>Muy buen estado</td>
+                    <td>Consola</td>
+                    <td>$149.99</td>
+                    <td><button onclick="alertar('PlayStation 4')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>Xbox One</td>
+                    <td>Aceptable</td>
+                    <td>Consola</td>
+                    <td>$129.99</td>
+                    <td><button onclick="alertar('Xbox One')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>PlayStation 5</td>
+                    <td>Como nueva</td>
+                    <td>Consola</td>
+                    <td>$449.99</td>
+                    <td><button onclick="alert('PlayStation 5 añadida al carrito')">Comprar</button></td>
+                </tr>
+                <tr>
+                    <td>Xbox Series X</td>
+                    <td>Buen estado</td>
+                    <td>Consola</td>
+                    <td>$399.99</td>
+                    <td><button onclick="alert('Xbox Series X añadida al carrito')">Comprar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 JOJOBros Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function alertar(consola) {
+            window.alert(consola + " añadida al carrito");
+        }
+    </script>
+</body>
+
+</html>

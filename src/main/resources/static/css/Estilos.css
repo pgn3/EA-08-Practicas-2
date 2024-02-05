@@ -1,0 +1,49 @@
+footer p{
+    background-color: blue;
+    color: white;
+    
+}
+
+p{
+    background-color: blue;
+    color:white;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    
+    
+}
+h2{
+    text-align: center;
+    background-color: green;
+    color:yellow;
+    font-size: 14px;
+    
+}
+
+
+.aviso{
+    
+    background-color: green;
+    color:white;
+}
+
+
+#btnAlkgo{
+    
+}
+
+table{
+    width: 80%
+}
+thead tr{
+    background-color: black;
+    color:white;
+    width: 80%;
+}
